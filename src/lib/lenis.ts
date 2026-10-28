@@ -37,6 +37,46 @@ export function scrollTopImmediate(): void {
   }
 }
 
+/** Jump to an element id. False when it is not in the document yet. */
+export function scrollToHash(hash: string): boolean {
+  const id = hash.startsWith('#') ? hash.slice(1) : hash
+  if (!id) return false
+  const target = document.getElementById(id)
+  if (!target) return false
+  if (lenis) {
+    // Immediate so the section is in place when the route curtain lifts.
+    // `force` still runs while Lenis is stopped during the cover.
+    lenis.scrollTo(target, { immediate: true, force: true })
+  } else {
+    target.scrollIntoView({ behavior: 'auto', block: 'start' })
+  }
+  return true
+}
+
+/**
+ * Put the incoming route where it should be: the hash target, or the top.
+ * Returns false while the outgoing view is still the one in the document
+ * (the leave transition has not finished). Scrolling then sticks the old
+ * offset onto the page that mounts next.
+ */
+export function alignRouteScroll(): boolean {
+  if (location.hash) return scrollToHash(location.hash)
+
+  const main = document.querySelector('main.page')
+  if (!main) return false
+
+  const path = location.pathname
+  if (path.startsWith('/work/')) {
+    const slug = decodeURIComponent(path.slice('/work/'.length).replace(/\/$/, ''))
+    if (main.getAttribute('data-slug') !== slug) return false
+  } else if (main.getAttribute('data-route') !== 'home') {
+    return false
+  }
+
+  scrollTopImmediate()
+  return true
+}
+
 export function destroyLenis(): void {
   if (tickerFn) {
     gsap.ticker.remove(tickerFn)

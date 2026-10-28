@@ -1,20 +1,20 @@
 <script setup lang="ts">
 defineProps<{
-  num?: string
-  statement?: string
-  side?: string
-  cta?: string
-}>()
+  num?: string;
+  statement?: string;
+  side?: string;
+  cta?: string;
+}>();
 </script>
 
 <template>
-  <section class="manifesto">
-    <div class="manifesto__main">
-      <span class="eyebrow">{{ num ?? '( MANIFESTO )' }}</span>
+  <section id="about" class="manifesto" tabindex="-1">
+    <div class="manifesto__main" data-reveal>
+      <span class="eyebrow">{{ num ?? "( MANIFESTO )" }}</span>
       <p class="manifesto__text">
         {{
           statement ??
-          'I photograph clothing the way architects draw buildings — as structures that hold memory, movement, and desire.'
+          "I photograph clothing the way architects draw buildings — as structures that hold memory, movement, and desire."
         }}
       </p>
     </div>
@@ -22,10 +22,10 @@ defineProps<{
       <p class="manifesto__side-text">
         {{
           side ??
-          'Based in Paris. Shooting worldwide. Available for editorials, campaigns and creative direction.'
+          "Based in Paris. Shooting worldwide. Available for editorials, campaigns and creative direction."
         }}
       </p>
-      <a class="manifesto__cta" href="mailto:studio@miravolkov.com">{{ cta ?? 'BOOK A SHOOT →' }}</a>
+      <a class="manifesto__cta">{{ cta ?? "BOOK A SHOOT →" }}</a>
       <span class="manifesto__rule" aria-hidden="true" />
     </aside>
   </section>
@@ -37,6 +37,11 @@ defineProps<{
   grid-template-columns: 1fr 280px;
   gap: 64px;
   padding: 64px var(--pad-page);
+  scroll-margin-top: 80px;
+  outline: none;
+  width: 100%;
+  max-width: 90rem;
+  margin: auto;
 }
 .manifesto__main {
   display: flex;
@@ -65,9 +70,12 @@ defineProps<{
   font-family: var(--font-mono);
   font-size: 12px;
   letter-spacing: 2px;
+  transition: color var(--dur-fast) var(--ease-out);
 }
-.manifesto__cta:hover {
-  color: var(--accent);
+@media (hover: hover) and (pointer: fine) {
+  .manifesto__cta:hover {
+    color: var(--accent);
+  }
 }
 .manifesto__rule {
   width: 48px;

@@ -10,14 +10,19 @@ const columns = [
 </script>
 
 <template>
-  <section class="portfolio">
-    <div class="portfolio__header">
+  <section id="works" class="portfolio" tabindex="-1">
+    <div class="portfolio__header" data-reveal>
       <h2 class="portfolio__title">Selected Works</h2>
       <span class="portfolio__count">01 — 06</span>
     </div>
     <div class="portfolio__grid">
       <div v-for="(col, i) in columns" :key="i" class="portfolio__col">
-        <WorkCard v-for="work in col" :key="work.slug" :work="work" />
+        <WorkCard
+          v-for="work in col"
+          :key="work.slug"
+          :work="work"
+          data-reveal-item
+        />
       </div>
     </div>
   </section>
@@ -29,6 +34,11 @@ const columns = [
   flex-direction: column;
   gap: 24px;
   padding: 40px var(--pad-page);
+  width:100%;
+  margin:auto;
+  max-width: 90rem;
+  scroll-margin-top: 80px;
+  outline: none;
 }
 .portfolio__header {
   display: flex;

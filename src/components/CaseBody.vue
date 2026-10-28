@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import type { FactItem } from '../types'
+import type { FactItem } from "../types";
 
 defineProps<{
-  statement: string
-  facts: FactItem[]
-  nextTitle?: string
-}>()
+  statement: string;
+  facts: FactItem[];
+  nextTitle?: string;
+}>();
 </script>
 
 <template>
   <section class="case-body">
-    <div class="case-body__main">
+    <div class="case-body__main" data-reveal>
       <span class="eyebrow">( STATEMENT )</span>
       <p class="case-body__statement">{{ statement }}</p>
     </div>
@@ -21,9 +21,9 @@ defineProps<{
       </div>
     </aside>
   </section>
-  <section class="case-next">
+  <section class="case-next" data-reveal>
     <span class="eyebrow">NEXT WORK →</span>
-    <h2 class="case-next__title">{{ nextTitle ?? 'Porcelain' }}</h2>
+    <h2 class="case-next__title">{{ nextTitle ?? "Porcelain" }}</h2>
   </section>
 </template>
 
@@ -33,6 +33,10 @@ defineProps<{
   grid-template-columns: 1fr 300px;
   gap: 64px;
   padding: 64px var(--pad-page);
+  width: 100%;
+  max-width: 90rem;
+  margin: auto;
+  max-height: 50rem;
 }
 .case-body__main {
   display: flex;

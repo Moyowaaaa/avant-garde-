@@ -15,6 +15,29 @@
   --pad-page: 64px;
   --radius-sm: 2px;
   --radius-md: 4px;
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --dur-fast: 160ms;
+  --dur-ui: 250ms;
+  --dur-reveal: 700ms;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
 }
 
 *,
@@ -31,6 +54,10 @@ body {
   color: var(--text-primary);
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+  /* Route swaps replace the whole page. Anchoring would keep the
+     outgoing scroll offset and land the next view mid-page. */
+  overflow-anchor: none;
 }
 
 a {
@@ -51,8 +78,28 @@ img {
   text-transform: uppercase;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  html.has-custom-cursor,
+  html.has-custom-cursor a,
+  html.has-custom-cursor button,
+  html.has-custom-cursor [role='button'] {
+    cursor: none;
+  }
+}
+
 @media (max-width: 900px) {
   :root {
     --pad-page: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }

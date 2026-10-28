@@ -17,6 +17,7 @@ const casePath = computed(() => (cases[props.work.slug] ? `/work/${props.work.sl
     :to="casePath ?? undefined"
     :style="{ height: `${work.height}px` }"
     :aria-label="casePath ? `${work.title} — view case` : undefined"
+    :data-cursor="casePath ? 'view' : undefined"
   >
     <img class="card__img" :src="work.image" :alt="work.title" loading="lazy" />
     <div class="card__overlay">

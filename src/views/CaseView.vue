@@ -1,42 +1,54 @@
 <script setup lang="ts">
-import { RouterLink } from 'vue-router'
-import CaseHero from '../components/CaseHero.vue'
-import CaseBody from '../components/CaseBody.vue'
-import CaseGallery from '../components/CaseGallery.vue'
-import { caseGalleryStack, caseGalleryTall, caseHeroImage } from '../data/works'
+import { computed } from "vue";
+import { RouterLink, useRoute } from "vue-router";
+import CaseHero from "../components/CaseHero.vue";
+import CaseBody from "../components/CaseBody.vue";
+import CaseGallery from "../components/CaseGallery.vue";
+import { cases, defaultCaseSlug } from "../data/works";
+import { setupReveals } from "../composables/useReveal";
+import { useGsapScope } from "../composables/useGsapScope";
+import BillboardFooter from "@/components/BillboardFooter.vue";
 
-const meta = [
-  { key: 'CLIENT', value: 'Maison Margiela' },
-  { key: 'YEAR', value: '2026' },
-  { key: 'ROLE', value: 'Photo + Direction' },
-]
+const route = useRoute();
+const detail = computed(
+  () => cases[route.params.slug as string] ?? cases[defaultCaseSlug],
+);
 
-const facts = [
-  { key: 'LOCATION', value: 'Palais Royal, Paris' },
-  { key: 'FILM', value: 'Portra 800 + Digital' },
-  { key: 'TEAM', value: 'Styling: A. Chen / MUA: R. Diallo' },
-]
+useGsapScope((root) => {
+  setupReveals(root);
+});
 </script>
 
 <template>
-  <main class="page">
+  <main :key="detail.slug" :data-slug="detail.slug" ref="root" class="page">
     <header class="case-nav">
-      <RouterLink to="/" class="case-nav__link">← ALL WORKS</RouterLink>
-      <span class="case-nav__logo">MIRA VOLKOV</span>
-      <RouterLink to="/lab" class="case-nav__link">NEXT →</RouterLink>
+      <RouterLink to="/#works" class="case-nav__link">← ALL WORKS</RouterLink>
+
+      <a href="/">
+        <span class="case-nav__logo">MIRA VOLKOV</span>
+      </a>
+
+      <RouterLink :to="`/work/${detail.nextSlug}`" class="case-nav__link"
+        >NEXT →</RouterLink
+      >
     </header>
     <CaseHero
-      tag="CAMPAIGN — MAISON MARGIELA / FW26"
-      title="Rouge Noir"
-      :image="caseHeroImage"
-      :facts="meta"
+      :tag="detail.tag"
+      :title="detail.title"
+      :image="detail.image"
+      :facts="detail.meta"
     />
     <CaseBody
-      statement="Black is never one color. Twelve looks, one Paris night — leather, lace and smoke."
-      :facts="facts"
-      next-title="Porcelain"
+      :statement="detail.statement"
+      :facts="detail.facts"
+      :next-title="detail.nextTitle"
     />
-    <CaseGallery :tall="caseGalleryTall" :stack="caseGalleryStack" alt="Rouge Noir gallery" />
+    <CaseGallery
+      :tall="detail.galleryTall"
+      :stack="detail.galleryStack"
+      :alt="detail.title"
+    />
+    <BillboardFooter />
   </main>
 </template>
 
