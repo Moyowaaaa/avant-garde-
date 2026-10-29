@@ -1,0 +1,2536 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "type": "frame",
+      "id": "sMwYd",
+      "x": 0,
+      "y": 0,
+      "name": "Editorial Portfolio",
+      "clip": true,
+      "width": 1920,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "i6cQFF",
+          "name": "Nav",
+          "width": "fill_container",
+          "height": 80,
+          "padding": [
+            0,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "l1arrf",
+              "name": "Logo",
+              "fill": "$text-primary",
+              "content": "MIRA VOLKOV",
+              "fontFamily": "$font-display",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "akUvG",
+              "name": "Nav Links",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lzYqe",
+                  "name": "WORKS",
+                  "fill": "$text-secondary",
+                  "content": "WORKS",
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "iXH4X",
+                  "name": "ABOUT",
+                  "fill": "$text-secondary",
+                  "content": "ABOUT",
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "QF6VE",
+                  "name": "JOURNAL",
+                  "fill": "$text-secondary",
+                  "content": "JOURNAL",
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "sGbyk",
+                  "name": "CONTACT",
+                  "fill": "$text-secondary",
+                  "content": "CONTACT",
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "u4X7Xg",
+              "name": "Index",
+              "fill": "$accent",
+              "content": "01 / 04",
+              "fontFamily": "$font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ByrsI",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 720,
+          "gap": 48,
+          "padding": [
+            0,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "aGhO8",
+              "name": "Hero Left",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 24,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Jm61J",
+                  "name": "Eyebrow",
+                  "fill": "$accent",
+                  "content": "— PHOTOGRAPHER / DIRECTOR",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "t9BKHS",
+                  "name": "Title 1",
+                  "fill": "$text-primary",
+                  "content": "Avant-",
+                  "lineHeight": 0.9,
+                  "fontFamily": "$font-display",
+                  "fontSize": 120,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "jrLSD",
+                  "name": "Title 2",
+                  "fill": "$accent",
+                  "content": "Garde",
+                  "lineHeight": 0.9,
+                  "fontFamily": "$font-display",
+                  "fontSize": 120,
+                  "fontWeight": "bold",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "XKC5u",
+                  "name": "Title 3",
+                  "fill": "$text-primary",
+                  "content": "Fashion",
+                  "lineHeight": 0.9,
+                  "fontFamily": "$font-display",
+                  "fontSize": 120,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "D66fbe",
+                  "name": "Hero Meta",
+                  "gap": 40,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "b5to5",
+                      "name": "Desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 320,
+                      "content": "A study of light, form and the spaces between. Editorial and campaign work for Maison Margiela, Rick Owens, and The Row.",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ppbiX",
+                      "name": "Stats",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "i1D5io",
+                          "name": "Stat 1",
+                          "fill": "$text-primary",
+                          "content": "2019 — 2026",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jvMNb",
+                          "name": "Stat 2",
+                          "fill": "$text-secondary",
+                          "content": "PARIS / TOKYO / NY",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GFVnj",
+              "name": "Hero Image",
+              "clip": true,
+              "width": "fill_container",
+              "height": 720,
+              "fill": "$bg-elev",
+              "cornerRadius": 4,
+              "effect": {
+                "type": "shader",
+                "url": "untitled-assets/film-grain.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_grain": 0.09
+                }
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "o7xvFk",
+                  "name": "Image Placeholder",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "untitled-assets/generated-2.png",
+                    "mode": "cover"
+                  },
+                  "width": "fill_container",
+                  "height": "fill_container"
+                },
+                {
+                  "type": "text",
+                  "id": "cMpUx",
+                  "layoutPosition": "absolute",
+                  "x": 24,
+                  "y": 24,
+                  "name": "Image Label",
+                  "fill": "$text-secondary",
+                  "content": "FW26 — LOOK 07",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "vUkni",
+                  "layoutPosition": "absolute",
+                  "x": 640,
+                  "y": 320,
+                  "name": "Vertical tag",
+                  "rotation": 90,
+                  "fill": "$text-primary",
+                  "content": "SCROLL — FW26 ●",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HaQQC",
+          "name": "Portfolio",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "fIl1R",
+              "name": "Portfolio Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iuVkc",
+                  "name": "Portfolio Title",
+                  "fill": "$text-primary",
+                  "content": "Selected Works",
+                  "fontFamily": "$font-display",
+                  "fontSize": 48,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "rlh6F",
+                  "name": "Portfolio Count",
+                  "fill": "$text-secondary",
+                  "content": "01 — 06",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fw7t2",
+              "name": "Grid",
+              "width": "fill_container",
+              "effect": {
+                "type": "shader",
+                "url": "untitled-assets/film-grain.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_grain": 0.07
+                }
+              },
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CJQjc",
+                  "name": "Col 1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "v6Q4Ad",
+                      "name": "FW26 — Look 01",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 520,
+                      "fill": "$bg-elev",
+                      "cornerRadius": 2,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Eg3sT",
+                          "name": "Image",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "untitled-assets/generated-4.png",
+                            "mode": "cover"
+                          },
+                          "layout": "vertical"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Mgl6m",
+                          "name": "Meta",
+                          "width": "fill_container",
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "RRLqj",
+                              "name": "Tag",
+                              "fill": "$accent",
+                              "content": "MAISON MARGIELA",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 2
+                            },
+                            {
+                              "type": "text",
+                              "id": "N6m21",
+                              "name": "Label",
+                              "fill": "$text-secondary",
+                              "content": "FW26 — Look 01",
+                              "fontFamily": "$font-body",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "d5A6F",
+                      "name": "Editorial — Vol. 12",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 360,
+                      "fill": "$bg-elev",
+                      "cornerRadius": 2,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "WWJ9F",
+                          "name": "Image",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "untitled-assets/generated-5.png",
+                            "mode": "cover"
+                          },
+                          "layout": "vertical"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HdwLL",
+                          "name": "Meta",
+                          "width": "fill_container",
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "pwWTU",
+                              "name": "Tag",
+                              "fill": "$accent",
+                              "content": "VOGUE ITALIA",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 2
+                            },
+                            {
+                              "type": "text",
+                              "id": "CnLBv",
+                              "name": "Label",
+                              "fill": "$text-secondary",
+                              "content": "Editorial — Vol. 12",
+                              "fontFamily": "$font-body",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ggTDf",
+                  "name": "Col 2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tikkh",
+                      "name": "FW25 — Look 14",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 360,
+                      "fill": "$bg-elev",
+                      "cornerRadius": 2,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "B5YgQ",
+                          "name": "Image",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "untitled-assets/generated-1.png",
+                            "mode": "cover"
+                          },
+                          "layout": "vertical"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DCIMG",
+                          "name": "Meta",
+                          "width": "fill_container",
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "rprhU",
+                              "name": "Tag",
+                              "fill": "$accent",
+                              "content": "RICK OWENS",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 2
+                            },
+                            {
+                              "type": "text",
+                              "id": "DDGWe",
+                              "name": "Label",
+                              "fill": "$text-secondary",
+                              "content": "FW25 — Look 14",
+                              "fontFamily": "$font-body",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CHXdN",
+                      "name": "Campaign — AW25",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 520,
+                      "fill": "$bg-elev",
+                      "cornerRadius": 2,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "GNAi0",
+                          "name": "Image",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "untitled-assets/generated-3.png",
+                            "mode": "cover"
+                          },
+                          "layout": "vertical"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "UXvyt",
+                          "name": "Meta",
+                          "width": "fill_container",
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "YOYzu",
+                              "name": "Tag",
+                              "fill": "$accent",
+                              "content": "THE ROW",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 2
+                            },
+                            {
+                              "type": "text",
+                              "id": "Um4ir",
+                              "name": "Label",
+                              "fill": "$text-secondary",
+                              "content": "Campaign — AW25",
+                              "fontFamily": "$font-body",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ErIis",
+                  "name": "Col 3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OOkOL",
+                      "name": "Portrait Series",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 440,
+                      "fill": "$bg-elev",
+                      "cornerRadius": 2,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "yr3Gp",
+                          "name": "Image",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "untitled-assets/generated.png",
+                            "mode": "cover"
+                          },
+                          "layout": "vertical"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "psgj0",
+                          "name": "Meta",
+                          "width": "fill_container",
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vl83G",
+                              "name": "Tag",
+                              "fill": "$accent",
+                              "content": "PERSONAL",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 2
+                            },
+                            {
+                              "type": "text",
+                              "id": "XzJw1",
+                              "name": "Label",
+                              "fill": "$text-secondary",
+                              "content": "Portrait Series",
+                              "fontFamily": "$font-body",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UbqIo",
+                      "name": "Runway — SS26",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 440,
+                      "fill": "$bg-elev",
+                      "cornerRadius": 2,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ttKP3",
+                          "name": "Image",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "untitled-assets/generated-6.png",
+                            "mode": "cover"
+                          },
+                          "layout": "vertical"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "n213F8",
+                          "name": "Meta",
+                          "width": "fill_container",
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "N2B9yy",
+                              "name": "Tag",
+                              "fill": "$accent",
+                              "content": "PARIS",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 2
+                            },
+                            {
+                              "type": "text",
+                              "id": "J9IBGl",
+                              "name": "Label",
+                              "fill": "$text-secondary",
+                              "content": "Runway — SS26",
+                              "fontFamily": "$font-body",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HSeDc",
+          "name": "Marquee",
+          "clip": true,
+          "width": "fill_container",
+          "height": 64,
+          "fill": "$accent",
+          "gap": 32,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "q6c8F8",
+              "name": "Marquee PARIS FA",
+              "fill": "#0a0a0a",
+              "content": "PARIS FASHION WEEK — FW26",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "lNIKZ",
+              "name": "Marquee EDITORIA",
+              "fill": "#0a0a0a",
+              "content": "EDITORIAL — CAMPAIGN — RUNWAY",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "JwNZw",
+              "name": "Marquee MIRA VOL",
+              "fill": "#0a0a0a",
+              "content": "MIRA VOLKOV — ®2026",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "EX9sR",
+          "name": "Manifesto",
+          "width": "fill_container",
+          "gap": 64,
+          "padding": 64,
+          "children": [
+            {
+              "type": "text",
+              "id": "f0ydZ",
+              "name": "Manifesto Num",
+              "fill": "$accent",
+              "content": "( MANIFESTO )",
+              "fontFamily": "$font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "fMEit",
+              "name": "Manifesto Text",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "I photograph clothing the way architects draw buildings — as structures that hold memory, movement, and desire.",
+              "lineHeight": 1.2,
+              "fontFamily": "$font-display",
+              "fontSize": 42,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "PAE93",
+              "name": "Manifesto Side",
+              "width": 280,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Pvl8E",
+                  "name": "Side Text",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 280,
+                  "content": "Based in Paris. Shooting worldwide. Available for editorials, campaigns and creative direction.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "LXAxd",
+                  "name": "CTA",
+                  "fill": "$text-primary",
+                  "content": "BOOK A SHOOT →",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "rectangle",
+                  "id": "zzXoJ",
+                  "name": "Accent rule",
+                  "fill": "$accent",
+                  "width": 48,
+                  "height": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IGeuk",
+          "name": "Services",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            0,
+            64,
+            64,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "z5jPx",
+              "name": "Capabilities Header",
+              "width": "fill_container",
+              "padding": [
+                0,
+                0,
+                32,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jcXO7",
+                  "name": "Cap Label",
+                  "fill": "$accent",
+                  "content": "( CAPABILITIES )",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "T2NPf",
+                  "name": "Cap Hint",
+                  "fill": "$text-secondary",
+                  "content": "HOVER STATE MOCKUP → ROW 02",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uMdhq",
+              "name": "Service 01",
+              "width": "fill_container",
+              "stroke": "$line",
+              "strokeWidth": {
+                "top": 1
+              },
+              "padding": [
+                32,
+                8
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XJnQs",
+                  "name": "S Num",
+                  "fill": "$accent",
+                  "content": "/01",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "L669y",
+                  "name": "S Title",
+                  "fill": "$text-primary",
+                  "content": "Editorial",
+                  "fontFamily": "$font-display",
+                  "fontSize": 56,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "a1fSQY",
+                  "name": "S Desc",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 320,
+                  "content": "Vogue, i-D, Dazed — stories with narrative tension",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "x48k5",
+              "name": "Service 02",
+              "width": "fill_container",
+              "fill": {
+                "type": "shader",
+                "enabled": true,
+                "url": "untitled-assets/hover-sheen.glsl",
+                "uniforms": {
+                  "u_base": [
+                    1,
+                    0.23,
+                    0.18
+                  ]
+                }
+              },
+              "cornerRadius": 6,
+              "stroke": "$line",
+              "padding": 32,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "krMs6",
+                  "name": "S Num",
+                  "fill": "#0a0a0a",
+                  "content": "/02 ● ACTIVE",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "rj597",
+                  "name": "S Title",
+                  "fill": "#0a0a0a",
+                  "content": "Campaign",
+                  "fontFamily": "$font-display",
+                  "fontSize": 64,
+                  "fontWeight": "bold",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "nliGg",
+                  "name": "S Desc",
+                  "fill": "#0a0a0a",
+                  "textGrowth": "fixed-width",
+                  "width": 320,
+                  "content": "Full creative direction — hover expands the row, title turns italic, preview image follows the cursor.",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "i3Biu",
+                  "name": "Image",
+                  "width": 240,
+                  "height": 150,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "untitled-assets/generated-4.png",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": 4,
+                  "effect": {
+                    "type": "shader",
+                    "url": "untitled-assets/film-grain-2.glsl",
+                    "uniforms": {
+                      "u_content": "pencil:object",
+                      "u_grain": 0.06
+                    }
+                  },
+                  "layout": "vertical"
+                },
+                {
+                  "type": "icon",
+                  "id": "Y03ov",
+                  "name": "Hover Arrow",
+                  "width": 40,
+                  "height": 40,
+                  "icon": "arrow-up-right",
+                  "library": "lucide",
+                  "fill": "#0a0a0a"
+                },
+                {
+                  "type": "frame",
+                  "id": "iRuWk",
+                  "layoutPosition": "absolute",
+                  "x": 900,
+                  "y": -20,
+                  "name": "Cursor Dot",
+                  "width": 110,
+                  "fill": "#0a0a0a",
+                  "cornerRadius": 20,
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "bLqNi",
+                      "name": "Dot",
+                      "fill": "$accent",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "kdkQv",
+                      "name": "Cursor Label",
+                      "fill": "#ffffff",
+                      "content": "VIEW CASE",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "c4zeG",
+              "name": "Service 03",
+              "width": "fill_container",
+              "stroke": "$line",
+              "strokeWidth": {
+                "top": 1
+              },
+              "padding": [
+                32,
+                8
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aOWKl",
+                  "name": "S Num",
+                  "fill": "$accent",
+                  "content": "/03",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "tNTBh",
+                  "name": "S Title",
+                  "fill": "$text-primary",
+                  "content": "Runway",
+                  "fontFamily": "$font-display",
+                  "fontSize": 56,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "SePIS",
+                  "name": "S Desc",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 320,
+                  "content": "Backstage and live show documentation",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "csQEH",
+              "name": "Service 04",
+              "width": "fill_container",
+              "stroke": "$line",
+              "strokeWidth": {
+                "top": 1,
+                "bottom": 1
+              },
+              "padding": [
+                32,
+                8
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "E4BqI",
+                  "name": "S Num",
+                  "fill": "$accent",
+                  "content": "/04",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ZXdjG",
+                  "name": "S Title",
+                  "fill": "$text-primary",
+                  "content": "Portrait",
+                  "fontFamily": "$font-display",
+                  "fontSize": 56,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "oOpeo",
+                  "name": "S Desc",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 320,
+                  "content": "Intimate artist and designer portraits",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sICZp",
+          "name": "Billboard Footer",
+          "width": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "GFmEg",
+              "name": "Billboard Canvas",
+              "clip": true,
+              "width": "fill_container",
+              "height": 640,
+              "fill": {
+                "type": "shader",
+                "enabled": true,
+                "url": "untitled-assets/billboard-embers.glsl",
+                "uniforms": {
+                  "u_ember": [
+                    1,
+                    0.23,
+                    0.18
+                  ],
+                  "u_deep": [
+                    0.05,
+                    0.02,
+                    0.02
+                  ]
+                }
+              },
+              "effect": {
+                "type": "shader",
+                "url": "untitled-assets/film-grain-2.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_grain": 0.08
+                }
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vNJJ6",
+                  "name": "Ticker Tape",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "$accent",
+                  "gap": 40,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "stttu",
+                      "name": "Ticker AVAILA",
+                      "fill": "#0a0a0a",
+                      "content": "AVAILABLE WORLDWIDE — FW26",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 11,
+                      "fontWeight": "bold",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "mEqrD",
+                      "name": "Ticker BOOK A",
+                      "fill": "#0a0a0a",
+                      "content": "BOOK A SHOOT ●",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 11,
+                      "fontWeight": "bold",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "cDpqF",
+                      "name": "Ticker PARIS ",
+                      "fill": "#0a0a0a",
+                      "content": "PARIS / TOKYO / NEW YORK ●",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 11,
+                      "fontWeight": "bold",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D0JlU",
+                  "name": "Billboard Middle",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XyTn5",
+                      "name": "Billboard Kicker",
+                      "fill": "$accent-soft",
+                      "content": "● NOW BOOKING — FW26 / SS27",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "GJmS8",
+                      "name": "Billboard Line 1",
+                      "fill": "$text-primary",
+                      "content": "LET'S CREATE",
+                      "lineHeight": 0.95,
+                      "fontFamily": "$font-display",
+                      "fontSize": 170,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "LGWLV",
+                      "name": "Billboard Line 2 Row",
+                      "gap": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ttc5G",
+                          "name": "Billboard Line 2",
+                          "fill": "$text-primary",
+                          "content": "SOMETHING",
+                          "lineHeight": 0.95,
+                          "fontFamily": "$font-display",
+                          "fontSize": 170,
+                          "fontWeight": "bold",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "gwIfr",
+                          "name": "Billboard Arrow",
+                          "width": 110,
+                          "height": 110,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "W7Yyc",
+                      "name": "Billboard Email",
+                      "fill": "$text-primary",
+                      "content": "STUDIO@MIRAVOLKOV.COM",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "arVcS",
+                      "layoutPosition": "absolute",
+                      "x": 348,
+                      "y": 264,
+                      "name": "Ghost Echo",
+                      "opacity": 0.1,
+                      "fill": "#ffffff",
+                      "content": "SOMETHING",
+                      "fontFamily": "$font-display",
+                      "fontSize": 170,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "N2ffLj",
+                  "name": "Billboard Meta",
+                  "width": "fill_container",
+                  "padding": [
+                    16,
+                    64
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "i5Ugp",
+                      "name": "BB Left",
+                      "fill": "$text-secondary",
+                      "content": "©2026 MIRA VOLKOV",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nclc3",
+                      "name": "BB Proto",
+                      "fill": "$accent",
+                      "content": "PROTOTYPE — TEXT DRIFTS ON HOVER ●",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "BNdH8",
+                      "name": "BB Socials",
+                      "fill": "$text-secondary",
+                      "content": "INSTAGRAM / BEHANCE / ARENA",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "s875Th",
+      "x": 2000,
+      "y": 0,
+      "name": "Selected Work — Rouge Noir",
+      "clip": true,
+      "width": 1920,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "kuftm",
+          "name": "Case Nav",
+          "width": "fill_container",
+          "height": 80,
+          "padding": [
+            0,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "eEmEe",
+              "name": "Back",
+              "fill": "$text-secondary",
+              "content": "← ALL WORKS",
+              "fontFamily": "$font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "H7l2i",
+              "name": "Case Logo",
+              "fill": "$text-primary",
+              "content": "MIRA VOLKOV",
+              "fontFamily": "$font-display",
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "iUaQ7",
+              "name": "Next",
+              "fill": "$text-secondary",
+              "content": "NEXT →",
+              "fontFamily": "$font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jdYJz",
+          "name": "Case Hero",
+          "clip": true,
+          "width": "fill_container",
+          "height": 860,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "qdDi3",
+              "name": "Case Hero Image",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "untitled-assets/generated-2.png",
+                "mode": "cover"
+              },
+              "width": "fill_container",
+              "height": "fill_container",
+              "effect": {
+                "type": "shader",
+                "url": "untitled-assets/film-grain-2.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_grain": 0.1
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "ikoRB",
+              "layoutPosition": "absolute",
+              "x": 64,
+              "y": 430,
+              "name": "Case Overlay",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DUYwv",
+                  "name": "Case Tag",
+                  "fill": "$accent",
+                  "content": "CAMPAIGN — MAISON MARGIELA / FW26",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "y89KdD",
+                  "name": "Case Title",
+                  "fill": "$text-primary",
+                  "content": "Rouge Noir",
+                  "lineHeight": 0.9,
+                  "fontFamily": "$font-display",
+                  "fontSize": 150,
+                  "fontWeight": "bold",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZQMMY",
+              "layoutPosition": "absolute",
+              "x": 1240,
+              "y": 700,
+              "name": "Case Meta Bar",
+              "gap": 48,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "R1Nv8",
+                  "name": "CLIENT",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Vh7k0",
+                      "name": "CLIENT k",
+                      "fill": "$text-secondary",
+                      "content": "CLIENT",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "JaNBH",
+                      "name": "CLIENT v",
+                      "fill": "$text-primary",
+                      "content": "Maison Margiela",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lH6xT",
+                  "name": "YEAR",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iUW1d",
+                      "name": "YEAR k",
+                      "fill": "$text-secondary",
+                      "content": "YEAR",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "gazWO",
+                      "name": "YEAR v",
+                      "fill": "$text-primary",
+                      "content": "2026",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QGBip",
+                  "name": "ROLE",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Z98qu",
+                      "name": "ROLE k",
+                      "fill": "$text-secondary",
+                      "content": "ROLE",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "Bj2Rr",
+                      "name": "ROLE v",
+                      "fill": "$text-primary",
+                      "content": "Photo + Direction",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nJo8W",
+          "name": "Case Body",
+          "width": "fill_container",
+          "gap": 64,
+          "padding": [
+            80,
+            64
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "k4bqU",
+              "name": "Statement Num",
+              "fill": "$accent",
+              "content": "( STATEMENT )",
+              "fontFamily": "$font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "f4BSR",
+              "name": "Statement",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Black is never one color. Twelve looks, one Paris night — leather, lace and smoke.",
+              "lineHeight": 1.2,
+              "fontFamily": "$font-display",
+              "fontSize": 44,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "uCYN7",
+              "name": "Case Facts",
+              "width": 300,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "M40K8P",
+                  "name": "Fact LOCATION",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GzH5N",
+                      "name": "Fact k",
+                      "fill": "$text-secondary",
+                      "content": "LOCATION",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "rhc3C",
+                      "name": "Fact v",
+                      "fill": "$text-primary",
+                      "content": "Palais Royal, Paris",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E0IKI",
+                  "name": "Fact FILM",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "a4WMis",
+                      "name": "Fact k",
+                      "fill": "$text-secondary",
+                      "content": "FILM",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "xIBDW",
+                      "name": "Fact v",
+                      "fill": "$text-primary",
+                      "content": "Portra 800 + Digital",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Vl3pq",
+                  "name": "Fact TEAM",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XAQdt",
+                      "name": "Fact k",
+                      "fill": "$text-secondary",
+                      "content": "TEAM",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "bUBp7",
+                      "name": "Fact v",
+                      "fill": "$text-primary",
+                      "content": "Styling: A. Chen / MUA: R. Diallo",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PjssW",
+          "name": "Case Gallery",
+          "width": "fill_container",
+          "height": 560,
+          "effect": {
+            "type": "shader",
+            "url": "untitled-assets/film-grain-2.glsl",
+            "uniforms": {
+              "u_content": "pencil:object",
+              "u_grain": 0.06
+            }
+          },
+          "gap": 24,
+          "padding": [
+            0,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "GIdky",
+              "name": "Gallery Tall",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "untitled-assets/generated-1.png",
+                "mode": "cover"
+              },
+              "layout": "vertical"
+            },
+            {
+              "type": "frame",
+              "id": "IH54I",
+              "name": "Gallery Stack",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "P5PVHw",
+                  "name": "Gallery Img",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "untitled-assets/generated-5.png",
+                    "mode": "cover"
+                  },
+                  "layout": "vertical"
+                },
+                {
+                  "type": "frame",
+                  "id": "BjWMN",
+                  "name": "Gallery Img",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "untitled-assets/generated-6.png",
+                    "mode": "cover"
+                  },
+                  "layout": "vertical"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aaeEf",
+          "name": "Case Footer",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            80,
+            64,
+            64,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "HDPxu",
+              "name": "Next Label",
+              "fill": "$accent",
+              "content": "NEXT WORK →",
+              "fontFamily": "$font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 3
+            },
+            {
+              "type": "text",
+              "id": "rWtvM",
+              "name": "Next Title",
+              "fill": "$text-primary",
+              "content": "Porcelain",
+              "lineHeight": 1,
+              "fontFamily": "$font-display",
+              "fontSize": 110,
+              "fontWeight": "bold",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "WJQ3C",
+      "x": 4000,
+      "y": 0,
+      "name": "Animation Prototypes — Motion Lab",
+      "clip": true,
+      "width": 1920,
+      "fill": "$bg",
+      "layout": "vertical",
+      "padding": [
+        0,
+        0,
+        64,
+        0
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "mvosa",
+          "name": "Lab Header",
+          "width": "fill_container",
+          "padding": [
+            48,
+            64,
+            32,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "end",
+          "children": [
+            {
+              "type": "text",
+              "id": "X3vnTI",
+              "name": "Lab Title",
+              "fill": "$text-primary",
+              "content": "Motion Lab",
+              "fontFamily": "$font-display",
+              "fontSize": 64,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "ZtAhm",
+              "name": "Lab Sub",
+              "fill": "$accent",
+              "content": "LIVE SHADER PROTOTYPES — HOVER / TIME / MOUSE ●",
+              "fontFamily": "$font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vrCMO",
+          "name": "Lab Grid",
+          "width": "fill_container",
+          "gap": 24,
+          "padding": [
+            0,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "TE8on",
+              "name": "Lab Col A",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zQDa9",
+                  "name": "P01 MAGNETIC IMAGE",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$bg-elev",
+                  "cornerRadius": 6,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "T81eA",
+                      "name": "P01 Head",
+                      "width": "fill_container",
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "R7uQ2j",
+                          "name": "P01 N",
+                          "fill": "$accent",
+                          "content": "P01",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "BPmTm",
+                          "name": "P01 T",
+                          "fill": "$text-primary",
+                          "content": "MAGNETIC IMAGE",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "tnlIf",
+                          "name": "P01 G",
+                          "fill": "$text-secondary",
+                          "content": "MOUSE ● REACTS TO CURSOR",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sdGAi",
+                      "name": "P01 Canvas",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 420,
+                      "effect": {
+                        "type": "shader",
+                        "url": "untitled-assets/proto-magnet.glsl",
+                        "uniforms": {
+                          "u_content": "pencil:object",
+                          "u_edge": [
+                            1,
+                            0.23,
+                            0.18
+                          ]
+                        }
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "UBq9z",
+                          "name": "P01 Photo",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "untitled-assets/generated-2.png",
+                            "mode": "cover"
+                          },
+                          "width": "fill_container",
+                          "height": "fill_container"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "C1eJ4k",
+                      "name": "P01 Foot",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AKq1A",
+                          "name": "P01 D",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Move your cursor across the frame — the photo bends toward it with a red edge-bleed. Prototype for portfolio card hover.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YaCPI",
+                  "name": "P03 SHIMMER SWEEP",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$bg-elev",
+                  "cornerRadius": 6,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Wwzwn",
+                      "name": "P03 Head",
+                      "width": "fill_container",
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Uys76",
+                          "name": "P03 N",
+                          "fill": "$accent",
+                          "content": "P03",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "e3OhWs",
+                          "name": "P03 T",
+                          "fill": "$text-primary",
+                          "content": "SHIMMER SWEEP",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "N0OiQ",
+                          "name": "P03 G",
+                          "fill": "$text-secondary",
+                          "content": "TIME ● LOOPS",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Di1ZZ",
+                      "name": "P03 Canvas",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 420,
+                      "effect": {
+                        "type": "shader",
+                        "url": "untitled-assets/proto-shimmer.glsl",
+                        "uniforms": {
+                          "u_content": "pencil:object",
+                          "u_sheen": [
+                            1,
+                            1,
+                            1
+                          ]
+                        }
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CbnEf",
+                          "name": "P03 Headline",
+                          "fill": "$text-primary",
+                          "content": "SOMETHING",
+                          "fontFamily": "$font-display",
+                          "fontSize": 92,
+                          "fontWeight": "bold",
+                          "fontStyle": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KhYJw",
+                      "name": "P03 Foot",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WYQNQ",
+                          "name": "P03 D",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A light band sweeps across the headline every ~5s on its own. Prototype for billboard + CTA shimmer.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vKNeO",
+              "name": "Lab Col B",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BLZRJ",
+                  "name": "P02 CURSOR GLOW",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$bg-elev",
+                  "cornerRadius": 6,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Rp6OK",
+                      "name": "P02 Head",
+                      "width": "fill_container",
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "T6htIN",
+                          "name": "P02 N",
+                          "fill": "$accent",
+                          "content": "P02",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "u2734i",
+                          "name": "P02 T",
+                          "fill": "$text-primary",
+                          "content": "CURSOR GLOW",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "lbjaX",
+                          "name": "P02 G",
+                          "fill": "$text-secondary",
+                          "content": "MOUSE ● AMBIENT",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "f0l0z",
+                      "name": "P02 Canvas",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 420,
+                      "fill": {
+                        "type": "shader",
+                        "enabled": true,
+                        "url": "untitled-assets/proto-glow.glsl",
+                        "uniforms": {
+                          "u_glow": [
+                            1,
+                            0.23,
+                            0.18
+                          ]
+                        }
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hPW8z",
+                      "name": "P02 Foot",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "h0Q0q9",
+                          "name": "P02 D",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A red aura with a breathing ring follows the cursor. Prototype for dark-section hover ambience.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QZVn6",
+                  "name": "P04 EMBER FIELD",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$bg-elev",
+                  "cornerRadius": 6,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GM3OA",
+                      "name": "P04 Head",
+                      "width": "fill_container",
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jBmel",
+                          "name": "P04 N",
+                          "fill": "$accent",
+                          "content": "P04",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "nX0hW",
+                          "name": "P04 T",
+                          "fill": "$text-primary",
+                          "content": "EMBER FIELD",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z2lXx",
+                          "name": "P04 G",
+                          "fill": "$text-secondary",
+                          "content": "TIME ● AMBIENT LOOP",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ou8eT",
+                      "name": "P04 Canvas",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 420,
+                      "fill": {
+                        "type": "shader",
+                        "enabled": true,
+                        "url": "untitled-assets/billboard-embers.glsl",
+                        "uniforms": {
+                          "u_ember": [
+                            1,
+                            0.23,
+                            0.18
+                          ],
+                          "u_deep": [
+                            0.05,
+                            0.02,
+                            0.02
+                          ]
+                        }
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CQCJd",
+                      "name": "P04 Foot",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Udra2",
+                          "name": "P04 D",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Rising embers, sparks and grain loop forever. This is the exact engine behind the footer billboard.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "wElR9",
+          "name": "Lab Note",
+          "fill": "$text-secondary",
+          "content": "TIP — MOVE YOUR CURSOR OVER P01 + P02 ● P03 + P04 LOOP ON THEIR OWN",
+          "fontFamily": "$font-mono",
+          "fontSize": 11,
+          "fontWeight": "normal",
+          "letterSpacing": 2
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": "#0a0a0a"
+    },
+    "bg-elev": {
+      "type": "color",
+      "value": "#141414"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#f5f1e8"
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": "#8a8578"
+    },
+    "accent": {
+      "type": "color",
+      "value": "#ff3b2f"
+    },
+    "accent-soft": {
+      "type": "color",
+      "value": "#c9a961"
+    },
+    "line": {
+      "type": "color",
+      "value": "#2a2a2a"
+    },
+    "font-display": {
+      "type": "string",
+      "value": "Playfair Display"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-mono": {
+      "type": "string",
+      "value": "JetBrains Mono"
+    }
+  },
+  "fileToken": "94eceeca-e2d8-4d5a-9187-9629c0e43ffa"
+}

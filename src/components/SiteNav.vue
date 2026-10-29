@@ -93,7 +93,7 @@ function onLinkClick(event: MouseEvent, href: string): void {
 }
 .nav__logo {
   font-family: var(--font-display);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px;
 }
